@@ -80,13 +80,13 @@ function generateTeam(){
                 if (err) {
                   throw err;
                 }
-                console.log("Success!");
+                console.log("Update Successful!");
               });
             }
           })
           .catch((err) => {
             if (err) {
-              console.log("Error: ", err);
+            
             }
           });
       });
